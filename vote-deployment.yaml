@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote
+      - image: rezy19/voting-app-vote:7788582ee3dfc1d771e8212a7717e029cc1fb252
         name: vote
         ports:
         - containerPort: 80
