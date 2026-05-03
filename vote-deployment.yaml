@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: rezy19/voting-app-vote:25bd1bfb1bcc38aa319da8d8ec6764e1b3b3bc71
+      - image: rezy19/voting-app-vote:48ef75631ca6f09ea48fc7b29a173a50833e8f2e
         name: vote
         ports:
         - containerPort: 80
