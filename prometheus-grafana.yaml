@@ -20,3 +20,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true # ArgoCD will create the 'monitoring' namespace automatically
+      - ServerSideApply=true
