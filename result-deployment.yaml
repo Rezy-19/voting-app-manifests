@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: rezy19/voting-app-result:145979b5e4bbca7b7e85ad41311ba7294d9b82c6
+      - image: rezy19/voting-app-result:48ef75631ca6f09ea48fc7b29a173a50833e8f2e
         name: result
         ports:
         - containerPort: 80
